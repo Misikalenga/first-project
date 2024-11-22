@@ -4,6 +4,8 @@
 
 Dans le projet de travail sur notre ordinateur, `first-proj-c1`, nous avons créé un fichier `README.md` et un dossier `img` qui contiendra des captures d'écran.
 
+Si on fait un 
+
 Pour l'exemple, on va créer un dossier `test` vide:
 
 Lorsque l'on fait un `git status`, on constate le dossier `test` n'est pas reconnu. Les dossiers vides ne sont reconnus !
@@ -19,6 +21,7 @@ Ouvrez la console et tapez :
 ```bash
 git init
 ```
+Un dossier caché est créén il se nomme "git". c'est lui qui va contenir les fichiers et l'historique de travail. Ce fichier ".git"  ne devra pas être copier 
 
 ### Zone de `working`
 
@@ -42,7 +45,11 @@ git add lenomdunfichier.txt
 git add .
 ```
 
-Pour retirer du `staging` :
+Pour retirer du `staging` si on a pas encore celui-ci dans un commit :
+	
+	git rlm --cached nomDuFichier.
+
+Pour retirer du "staging" si on a déjà un commit :
 
 	git restore --staged nomdufichier.
 
