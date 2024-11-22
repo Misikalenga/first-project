@@ -60,11 +60,12 @@ Lorsque nous allons refaire un `git status`, les fichiers qui sont prêts à êt
 ### Zone de `repository local`
 
 Nous allons sauvegarder un fichier en utilisant le `commit` :
-
+ 
 ```bash
 # sauvegarde avec commentaire
 git commit -m"First commit with README.md "
 ```
+#### Voir les `commit`
 
 ### Zone de `repository remote`
 
